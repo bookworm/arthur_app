@@ -11,7 +11,8 @@ if(!include ARTHUR_LIBRARY_PATH . '/arthur/core/Libraries.php')
 	throw new ErrorException($message);
 }
 
-use arthur\core\Libraries;
+use arthur\core\Libraries;     
+echo  ARTHUR_LIBRARY_PATH;
 
 require ARTHUR_LIBRARY_PATH . '/arthur/core/Object.php';
 require ARTHUR_LIBRARY_PATH . '/arthur/core/StaticObject.php';

@@ -12,7 +12,6 @@ if(!include ARTHUR_LIBRARY_PATH . '/arthur/core/Libraries.php')
 }
 
 use arthur\core\Libraries;     
-echo  ARTHUR_LIBRARY_PATH;
 
 require ARTHUR_LIBRARY_PATH . '/arthur/core/Object.php';
 require ARTHUR_LIBRARY_PATH . '/arthur/core/StaticObject.php';

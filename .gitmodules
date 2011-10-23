@@ -1,0 +1,3 @@
+[submodule "libraries/arthur"]
+	path = libraries/arthur
+	url = git://github.com/bookworm/arthur.git

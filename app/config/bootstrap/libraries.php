@@ -41,5 +41,3 @@ require ARTHUR_LIBRARY_PATH . '/arthur/storage/cache/adapter/Apc.php';
 
 Libraries::add('arthur');
 Libraries::add('app', array('default' => true));
-
-// Libraries::add('li3_docs');
